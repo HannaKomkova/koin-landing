@@ -1,0 +1,172 @@
+@media (max-width:1100px){
+
+    header nav {
+        display: none;
+    }
+
+    header .burger-menu{
+        display: block;
+    }
+
+    .hero-wrapper{
+    flex-direction: column;
+    }
+
+    .advantage-wrapper{
+        padding: 50px 100px;
+    }
+    
+    .finance-description{
+        max-width: 500px;
+    }
+
+    .finance-wrapper h2{
+        font-size: 40px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+   .container {
+    max-width: 753px;
+   }
+
+   .hero-wrapper {
+       flex-direction: row;
+       gap: 16px;
+    }
+    
+    .hero-wrapper h1{
+        font-size: 48px;
+        max-width: 370px;
+   }
+
+    .advantage-wrapper{
+        padding: 40px;
+    }
+
+    .advantage-item{
+        justify-content: space-between;
+    }
+
+    .advantage-wrapper h2{
+        font-size: 40px;
+    }
+
+    .finance {
+        padding: 184px 0 40px 0;
+    }
+
+    .finance-img {
+        max-width: 268px;
+    }
+
+    .finance-description{
+        max-width: 367px;
+    }
+
+    .finance-wrapper h2 {
+        font-size: 32px;
+    }
+
+    .service {
+        padding: 50px 0 123px 0;
+    }
+
+    .service h2{
+        font-size: 32px;
+    }
+
+    .service-list{
+        gap: 20px;
+    }
+
+    .service .list-item{
+        max-width: 365px;
+    }
+
+    footer{
+        padding-bottom: 61px;
+    }
+
+    footer .logo {
+        margin-bottom: 50px;
+    }
+
+    footer nav{
+        flex-direction: column;
+        margin-bottom: 62px;
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        padding: 0 15px;
+    }
+
+    .hero{
+        padding: 53px 0 204px 0;
+    }
+
+    .hero-description{
+        gap: 24px;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    .advantage-wrapper{
+        flex-direction: column;
+        padding: 32px 69px;
+        gap: 32px;
+    }
+
+    .finance{
+        padding: 23px 0 76px 0;
+    }
+
+    .finance-wrapper{
+        flex-direction: column;
+        gap: 55px;
+    }
+
+    .finance-img{
+        max-width: 218px;
+    }
+
+    .finance-description{
+        gap: 24px;
+        max-width: 356px;
+    }
+
+    .finance-wrapper h2{
+        font-size: 36px;
+    }
+
+    .service{
+        padding: 31px 0;
+    }
+
+    .service h2{
+        font-size: 36px;
+    }
+
+    .service-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 60px;
+    }
+
+    footer{
+        padding: 37px 0;
+    }
+
+    footer nav{
+        gap: 40px;
+        margin-bottom: 32px;
+    }
+
+}
+
+
